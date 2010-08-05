@@ -1,0 +1,35 @@
+XDebug Helper for Nette Framework
+=================================
+Copyright (c) 2010 Jan 'Panda' Smitka
+
+
+Simple extension for Nette Framework, which integrates into the Debug Bar and
+enables you to easily start and stop a Xdebug session.
+
+
+Requirements
+------------
+
+Nette Framework 1.0
+PHP 5.3
+
+If you wish to run this extension on PHP 5.2, just remove the namespace and
+use block in XDebugHelper.php.
+
+
+Usage
+-----
+
+Simply register a new debug panel in your bootstrap.php:
+
+\Nette\Debug::addPanel(new \PandaWeb\XDebugHelper());
+
+or
+
+Debug::addPanel(new XDebugHelper());
+
+for the PHP 5.2 version.
+
+You can optionally specify your IDE key as the first parameter of
+the XDebugHelper constructor. Defaults to netbeans-xdebug, which is the most
+suitable option for NetBeans users.
