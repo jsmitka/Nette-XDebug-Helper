@@ -12,7 +12,6 @@
 
 namespace PandaWeb;
 use Nette\IDebugPanel;
-use Nette\Web\Html;
 
 
 class XDebugHelper implements IDebugPanel
