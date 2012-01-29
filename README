@@ -22,13 +22,7 @@ Usage
 
 Simply register a new debug panel in your bootstrap.php:
 
-\Nette\Debug::addPanel(new \PandaWeb\XDebugHelper());
-
-or
-
-Debug::addPanel(new XDebugHelper());
-
-for the PHP 5.2 version.
+Nette\Diagnostics\Debugger::$bar->addPanel(new \NetteExtras\XDebugHelper());
 
 You can optionally specify your IDE key as the first parameter of
 the XDebugHelper constructor. Defaults to netbeans-xdebug, which is the most

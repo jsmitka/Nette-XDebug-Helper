@@ -10,11 +10,11 @@
  */
 
 
-namespace PandaWeb;
-use Nette\IDebugPanel;
+namespace NetteExtras;
+use Nette\Diagnostics\IBarPanel;
 
 
-class XDebugHelper implements IDebugPanel
+class XDebugHelper implements IBarPanel
 {
 	private $ideKey;
 
