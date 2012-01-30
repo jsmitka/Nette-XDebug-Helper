@@ -20,9 +20,11 @@ use block in XDebugHelper.php.
 Usage
 -----
 
-Simply register a new debug panel in your bootstrap.php:
+Simply register a new debug panel in your config.neon:
 
-Nette\Diagnostics\Debugger::$bar->addPanel(new \NetteExtras\XDebugHelper());
+nette:
+    debugger:
+        bar: [NetteExtras\XDebugHelper()]
 
 You can optionally specify your IDE key as the first parameter of
 the XDebugHelper constructor. Defaults to netbeans-xdebug, which is the most
