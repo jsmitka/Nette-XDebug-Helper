@@ -10,8 +10,8 @@ enables you to easily start and stop a Xdebug session.
 Requirements
 ------------
 
-Nette Framework 2.0
-PHP 5.3
+* Nette Framework 2.0
+* PHP 5.3 or greater
 
 If you wish to run this extension on PHP 5.2, just remove the namespace and
 use block in XDebugHelper.php.
@@ -22,9 +22,9 @@ Usage
 
 Simply register a new debug panel in your config.neon:
 
-nette:
-    debugger:
-        bar: [NetteExtras\XDebugHelper()]
+	nette:
+		debugger:
+			bar: [NetteExtras\XDebugHelper()]
 
 You can optionally specify your IDE key as the first parameter of
 the XDebugHelper constructor. Defaults to netbeans-xdebug, which is the most
