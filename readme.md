@@ -1,6 +1,6 @@
 XDebug Helper for Nette Framework
 =================================
-Copyright (c) 2010 Jan 'Panda' Smitka
+Copyright (c) 2010-2013 Jan 'Panda' Smitka
 
 
 Simple extension for Nette Framework, which integrates into the Debug Bar and
@@ -10,7 +10,7 @@ enables you to easily start and stop a Xdebug session.
 Requirements
 ------------
 
-Nette Framework 1.0
+Nette Framework 2.0
 PHP 5.3
 
 If you wish to run this extension on PHP 5.2, just remove the namespace and

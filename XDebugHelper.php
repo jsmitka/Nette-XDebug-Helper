@@ -6,7 +6,7 @@
  * enables you to easily start and stop a Xdebug session.
  *
  * @author Jan Smitka <jan@smitka.org>
- * @copyright Copyright (c) 2010 Jan Smitka <jan@smitka.org>
+ * @copyright Copyright (c) 2010-2013 Jan Smitka <jan@smitka.org>
  */
 
 
@@ -28,7 +28,7 @@ class XDebugHelper implements IBarPanel
 
 	public function getId()
 	{
-		return 'PandaWeb-XdebugHelper';
+		return 'NetteExtras-XDebugHelper';
 	}
 
 	public function getPanel()
