@@ -14,5 +14,10 @@
 	},
 	"require-dev": {
 		"ext-xdebug": "*"
+	},
+	"autoload": {
+		"classmap": [
+			"XDebugHelper.php"
+		]
 	}
 }
