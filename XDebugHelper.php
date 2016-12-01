@@ -11,7 +11,7 @@
 
 
 namespace NetteExtras;
-use Nette\Diagnostics\IBarPanel;
+use Tracy\IBarPanel;
 
 
 class XDebugHelper implements IBarPanel
